@@ -6,9 +6,10 @@
 
 </head>
 <body>
+	<audio autoplay><source src="http://www.freexmasmp3.com/files/we-wish-you-a-merry-christmas.mp3"></audio>
 	<div id="snow"></div>
 	<div class="content">
-		<h1>Peter Chappy: hope your holiday's happy!</h1>
+		<h1>Peter Chappy: hope your holidays are happy!</h1>
 	</div>
 	<iframe id="site-iframe" src="http://peterchappy.com/"></iframe>
 </body>
@@ -24,21 +25,19 @@
 	.content h1{
 		position: absolute;
 		z-index: 1;
-		top: 50%;
-		left: 50%;
-		transform:translate(-50%, -50%);
 		font-family: "Lobster",serif;
 		color: #730000;
 		-webkit-animation: xmasscolors 2s linear infinite;
 		-moz-animation: xmasscolors 2s linear infinite;
 		-ms-animation: xmasscolors 2s linear infinite;
 		animation: xmasscolors 2s linear infinite;
-	    top: 10%;
+	    top: 25p;
 	    font-size: 65px;
 	    width: 100%;
 	    text-align: center;
 	    left: 50%;
-	    transform: translate(-50%, -10%);
+	    transform: translate(-50%, 0%);
+	    background-color: rgba(255,255,255,.5);
 	}
 	#site-iframe{
 		position: absolute;
@@ -58,10 +57,10 @@
 		top: 0;
 		width: 100%;
 		z-index:1;
-		-webkit-animation: snow 10s linear infinite;
-		-moz-animation: snow 10s linear infinite;
-		-ms-animation: snow 10s linear infinite;
-		animation: snow 10s linear infinite;
+		-webkit-animation: snow 6s linear infinite;
+		-moz-animation: snow 6s linear infinite;
+		-ms-animation: snow 6s linear infinite;
+		animation: snow 6s linear infinite;
 	}
 	@keyframes snow {
 	  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
